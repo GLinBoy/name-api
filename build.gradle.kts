@@ -17,7 +17,9 @@ defaultTasks("bootRun")
 val springDocVersion = "2.6.0"
 
 java {
-	sourceCompatibility = JavaVersion.VERSION_21
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(24)
+	}
 }
 
 repositories {
