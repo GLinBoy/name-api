@@ -5,7 +5,7 @@ plugins {
 	id("io.spring.dependency-management") version "1.1.7"
 	kotlin("jvm") version "2.3.21"
 	kotlin("plugin.spring") version "2.3.21"
-	id ("com.github.ben-manes.versions") version "0.53.0"
+	id ("com.github.ben-manes.versions") version "0.54.0"
 	id ("org.ec4j.editorconfig") version "0.1.0"
 }
 
@@ -14,7 +14,7 @@ version = "0.0.1-SNAPSHOT"
 
 defaultTasks("bootRun")
 
-val springDocVersion = "3.0.2"
+val springDocVersion = "3.0.3"
 
 java {
 	toolchain {
